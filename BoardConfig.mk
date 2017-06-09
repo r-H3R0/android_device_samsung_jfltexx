@@ -17,7 +17,7 @@
 # thorughout the system. It should not be used to conditionally
 # disable makefiles (the proper mechanism to control what gets
 # included in a build is to use PRODUCT_PACKAGES in a product
-# definition file).
+# definition file)..
 #
 
 # inherit from common jf
