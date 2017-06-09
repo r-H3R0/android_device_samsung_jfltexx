@@ -26,12 +26,6 @@ TARGET_VENDOR :=
 ROOT_METHOD=su
 # Without any of these flags the builds will be unrooted and won't include Adaway & KernelAdiutor
 
-# 3rd party apps - choose which you want to build
-PRODUCT_PACKAGES += \
-    Adaway \
-    KernelAdiutor \
-    MiXplorer
-    
 # Camera
 PRODUCT_PACKAGES += \
   Snap
