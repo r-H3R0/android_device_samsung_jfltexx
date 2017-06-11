@@ -1,8 +1,8 @@
 [
   {
-    "repository": "TeamHorizon/android_device_samsung_jf-common",
+    "repository": "Buff99/android_device_samsung_jf-common",
     "target_path": "device/samsung/jf-common",
-    "branch": "n"
+    "branch": "cm-14.1"
   },
   {
     "repository": "TeamHorizon/android_device_samsung_qcom-common",
@@ -10,9 +10,9 @@
     "branch": "n"
   },
   {
-    "repository": "TeamHorizon/android_kernel_samsung_jf",
+    "repository": "Buff99/android_kernel_samsung_jf",
     "target_path": "kernel/samsung/jf",
-    "branch": "n"    
+    "branch": "cm-14.1"    
   },
   {
     "repository": "TeamHorizon/android_hardware_samsung",

@@ -23,11 +23,17 @@ PRODUCT_PROPERTY_OVERRIDES += ro.xenonhd.maintainer="BenLue"
 TARGET_VENDOR := 
 
 # Root options
-ROOT_METHOD=su
-# Without any of these flags the builds will be unrooted and won't include Adaway & KernelAdiutor
+ROOT_METHOD=magisk
+
+# 3rd party apps - choose which you want to build
+PRODUCT_PACKAGES += \
+    Adaway \
+    KernelAdiutor \
+    MiXplorer
 
 # Camera
 PRODUCT_PACKAGES += \
+  Camera2 \
   Snap
 
 # Use the latest approved GMS identifiers unless running a signed build
