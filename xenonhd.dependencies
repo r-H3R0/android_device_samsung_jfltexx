@@ -1,6 +1,6 @@
 [
   {
-    "repository": "Buff99/android_device_samsung_jf-common",
+    "repository": "LineageOS/android_device_samsung_jf-common",
     "target_path": "device/samsung/jf-common",
     "branch": "cm-14.1"
   },
@@ -10,7 +10,7 @@
     "branch": "n"
   },
   {
-    "repository": "Buff99/android_kernel_samsung_jf",
+    "repository": "LineageOS/android_kernel_samsung_jf",
     "target_path": "kernel/samsung/jf",
     "branch": "cm-14.1"
   },
