@@ -16,7 +16,7 @@
   },
   {
     "repository": "TeamHorizon/android_hardware_samsung",
-    "target_path": "hardware/samsung",
+    "target_path": "hardware/samung",
     "branch": "n"
   },
   {
