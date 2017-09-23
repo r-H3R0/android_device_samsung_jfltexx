@@ -31,3 +31,6 @@ TARGET_OTA_ASSERT_DEVICE := jfltexx,i9505,GT-I9505,jgedlte,i9505g,GT-I9505G,jflt
 
 # Properties
 TARGET_SYSTEM_PROP += device/samsung/jfltexx/system.prop
+
+# Disable API Check
+WITHOUT_CHECK_API := true
