@@ -21,7 +21,7 @@
 #
 
 # inherit from common jf
-include device/samsung/jf-common/BoardConfigCommon.mk
+-include device/samsung/jf-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
 -include vendor/samsung/jf-gsm-common/BoardConfigVendor.mk
