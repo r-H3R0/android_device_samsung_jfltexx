@@ -11,16 +11,18 @@ $(call inherit-product, device/samsung/jfltexx/full_jfltexx.mk)
 $(call inherit-product, vendor/xenonhd/config/common_full_phone.mk)
 
 # Set those variables here to overwrite the inherited values.
-BOARD_VENDOR := 
-PRODUCT_BRAND := samsung
+BOARD_VENDOR := Samsung
+PRODUCT_BRAND := Samsung
 PRODUCT_DEVICE := jfltexx
 PRODUCT_NAME := xenonhd_jfltexx
-PRODUCT_MANUFACTURER := samsung
+PRODUCT_MANUFACTURER := Samsung
 PRODUCT_MODEL := GT-I9505
+
+PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 # Device Maintainer
 PRODUCT_PROPERTY_OVERRIDES += ro.xenonhd.maintainer="BenLue"
-TARGET_VENDOR := 
+TARGET_VENDOR := Samsung
 
 # Root options
 ROOT_METHOD=magisk
@@ -40,7 +42,6 @@ PRODUCT_PACKAGES += \
 ifneq ($(SIGN_BUILD),true)
 PRODUCT_BUILD_PROP_OVERRIDES += \
   PRODUCT_NAME=jfltexx \
-  TARGET_DEVICE=jfltexx \
-  BUILD_FINGERPRINT=samsung/jfltexx/jflte:5.0.1/LRX22C/I9505XXUHPF4:user/release-keys \
+  BUILD_FINGERPRINT=Samsung/jfltexx/jflte:5.0.1/LRX22C/I9505XXUHPF4:user/release-keys \
   PRIVATE_BUILD_DESC="jfltexx-user 5.0.1 LRX22C I9505XXUHPF4 release-keys"
 endif
