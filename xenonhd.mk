@@ -41,7 +41,6 @@ PRODUCT_PACKAGES += \
 # Use the latest approved GMS identifiers unless running a signed build
 ifneq ($(SIGN_BUILD),true)
 PRODUCT_BUILD_PROP_OVERRIDES += \
-#  TARGET_DEVICE=jfltexx \
   PRODUCT_NAME=jfltexx \
   BUILD_FINGERPRINT=Samsung/jfltexx/jflte:5.0.1/LRX22C/I9505XXUHPF4:user/release-keys \
   PRIVATE_BUILD_DESC="jfltexx-user 5.0.1 LRX22C I9505XXUHPF4 release-keys"
