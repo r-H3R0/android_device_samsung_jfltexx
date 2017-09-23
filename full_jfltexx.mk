@@ -30,6 +30,6 @@ $(call inherit-product, device/samsung/jfltexx/device.mk)
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_jfltexx
 PRODUCT_DEVICE := jfltexx
-PRODUCT_BRAND := samsung
-PRODUCT_MANUFACTURER := samsung
+PRODUCT_BRAND := Samsung
+PRODUCT_MANUFACTURER := Samsung
 PRODUCT_MODEL := GT-I9505
