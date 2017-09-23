@@ -18,6 +18,8 @@ PRODUCT_NAME := xenonhd_jfltexx
 PRODUCT_MANUFACTURER := Samsung
 PRODUCT_MODEL := GT-I9505
 
+PRODUCT_GMS_CLIENTID_BASE := android-samsung
+
 # Device Maintainer
 PRODUCT_PROPERTY_OVERRIDES += ro.xenonhd.maintainer="BenLue"
 TARGET_VENDOR := Samsung
