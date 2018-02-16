@@ -1,0 +1,32 @@
+[
+  {
+    "repository": "android_device_samsung_jf-common",
+    "target_path": "device/samsung/jf-common",
+    "branch": "n"
+  },
+  {
+    "repository": "android_device_samsung_qcom-common",
+    "target_path": "device/samsung/qcom-common",
+    "branch": "n"
+  },
+  {
+    "repository": "android_kernel_samsung_jf",
+    "target_path": "kernel/samsung/jf",
+    "branch": "n"
+  },
+  {
+    "repository": "android_hardware_samsung",
+    "target_path": "hardware/samsung",
+    "branch": "o"
+  },
+  {
+    "repository": "android_packages_apps_SamsungServiceMode",
+    "target_path": "packages/apps/SamsungServiceMode",
+    "branch": "n"
+  },
+  {
+    "repository": "proprietary_vendor_samsung",
+    "target_path": "vendor/samsung",
+    "branch": "n"
+  }
+]
